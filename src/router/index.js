@@ -3,8 +3,9 @@ import Router from 'vue-router'
 import ModuleHome from '@/components/ModuleHome.vue'
 import ModuleCanvas from '@/components/ModuleCanvas.vue'
 import ModuleSearch from '@/components/ModuleSearch.vue'
+import ModuleFirebase from '@/components/ModuleFirebase.vue'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     routes: [
@@ -22,6 +23,11 @@ export default new Router({
             path: '/search-example',
             name: 'Search',
             component: ModuleSearch
+        },
+        {
+            path: '/firebase-example',
+            name: 'Firebase',
+            component: ModuleFirebase
         }
     ]
 })

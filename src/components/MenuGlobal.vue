@@ -4,6 +4,7 @@
             <router-link class="navbar-item" to="/"><span class="icon"><i class="fa fa-home"></i></span></router-link>
             <router-link class="navbar-item" to="/canvas">canvas</router-link>
             <router-link class="navbar-item" to="/search-example">search-example</router-link>
+            <router-link class="navbar-item" to="/firebase-example">firebase-example</router-link>
         </div>
     </div>
 </template>
